@@ -576,7 +576,7 @@ const Do = Lt,
     Tl = "/assets/png/missingviebg-f1f89cc7.png",
     kl = "/assets/png/downloadPWAvn82-27d9512c.png",
     yl = "/assets/png/downloadPWAveso-887984a3.png",
-    vl = "/assets/png/downloadPWAtiranga-c4bc4137.png",
+    vl = "/assets/png/downloadPWAGAME OF SKILLS-c4bc4137.png",
     fl = "/assets/png/downloadPWAsit-482af576.png",
     wl = "/assets/png/downloadPWApoppg-0694a49e.png",
     Sl = "/assets/png/downloadPWApop678-7c28f6e6.png",
@@ -849,14 +849,14 @@ const Do = Lt,
     eh = "/assets/png/bg-edc23a85.png",
     ah = "/assets/png/vn82-7b988a01.png",
     th = "/assets/png/veso-e345fa21.png",
-    nh = "/assets/png/tiranga-72b611f7.png",
+    nh = "/assets/png/GAME OF SKILLS-72b611f7.png",
     ih = "/assets/png/tc-7429a57a.png",
     oh = "/assets/png/sit-87f8830c.png",
     sh = "/assets/png/poppg-6cd2ae29.png",
     rh = "/assets/png/pop678-8e5dceff.png",
     ch = "/assets/png/mtn-5b19af09.png",
     dh = "/assets/png/game_dice_veso-20664377.png",
-    lh = "/assets/png/game_dice_tiranga-750e933d.png",
+    lh = "/assets/png/game_dice_GAME OF SKILLS-750e933d.png",
     uh = "/assets/png/game_dice_sit-13373d77.png",
     ph = "/assets/png/game_dice_poppg-35af8b4c.png",
     mh = "/assets/png/game_dice_mtn-023bf20a.png",
@@ -1771,7 +1771,7 @@ const Do = Lt,
         "../assets/icons/common/missingviebg.png": Tl,
         "../assets/icons/common/downloadPWAvn82.png": kl,
         "../assets/icons/common/downloadPWAveso.png": yl,
-        "../assets/icons/common/downloadPWAtiranga.png": vl,
+        "../assets/icons/common/downloadPWAGAME OF SKILLS.png": vl,
         "../assets/icons/common/downloadPWAsit.png": fl,
         "../assets/icons/common/downloadPWApoppg.png": wl,
         "../assets/icons/common/downloadPWApop678.png": Sl,
@@ -2044,14 +2044,14 @@ const Do = Lt,
         "../assets/icons/home/gameListIcons/bg.png": eh,
         "../assets/icons/home/StartPage/vn82.png": ah,
         "../assets/icons/home/StartPage/veso.png": th,
-        "../assets/icons/home/StartPage/tiranga.png": nh,
+        "../assets/icons/home/StartPage/GAME OF SKILLS.png": nh,
         "../assets/icons/home/StartPage/tc.png": ih,
         "../assets/icons/home/StartPage/sit.png": oh,
         "../assets/icons/home/StartPage/poppg.png": sh,
         "../assets/icons/home/StartPage/pop678.png": rh,
         "../assets/icons/home/StartPage/mtn.png": ch,
         "../assets/icons/home/StartPage/game_dice_veso.png": dh,
-        "../assets/icons/home/StartPage/game_dice_tiranga.png": lh,
+        "../assets/icons/home/StartPage/game_dice_GAME OF SKILLS.png": lh,
         "../assets/icons/home/StartPage/game_dice_sit.png": uh,
         "../assets/icons/home/StartPage/game_dice_poppg.png": ph,
         "../assets/icons/home/StartPage/game_dice_mtn.png": mh,
@@ -35087,7 +35087,7 @@ function UD(e, a) {
     }
     return o == a
 }
-const Q4 = () => "tiranga",
+const Q4 = () => "GAME OF SKILLS",
     WD = (e, a, t, n) => {
         let o = [],
             c = n == 0 ? 2 : 3;
@@ -37810,7 +37810,7 @@ const yS = (e, a) => {
         t: wa
     } = ue.global,
     vS = la(),
-    fS = "https://tirangaapi.com",
+    fS = "https://GAME OF SKILLSapi.com",
     wS = "/api/webapi";
 let Sa = !1;
 const SS = {
@@ -42115,7 +42115,7 @@ const Ba = f(),
             isShowAppDownloadDown: !1,
             isShowLotteryDragon: !1,
             jackportMaxReswadAmount: 0,
-            projectName: "tiranga",
+            projectName: "GAME OF SKILLS",
             projectLogo: "",
             languages: "en",
             webIco: "",
@@ -42868,7 +42868,7 @@ const tx = ["src"],
     nx = ce({
         __name: "StartPage",
         setup(e) {
-            const a = "tiranga",
+            const a = "GAME OF SKILLS",
                 t = {}.VITE_STARTEXT || "";
             return (n, o) => (E(), X("div", {
                 class: ye(["start-page", [G(a)]])
@@ -44082,7 +44082,7 @@ const aD = Te(eD, [
                 t = f();
             let n = null;
             return Ke(async () => {
-                const o = "tiranga";
+                const o = "GAME OF SKILLS";
                 await Ci(), n = Ai.loadAnimation({
                     container: t.value,
                     renderer: "svg",

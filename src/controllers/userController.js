@@ -808,7 +808,7 @@ const recharge = async (req, res) => {
             customer_email: 'manas.xdr@gmail.com',
             customer_mobile: userInfo.phone,
             redirect_url: `https://247cashwin.cloud/wallet/verify/upi`,
-            udf1: 'TIRANGA',
+            udf1: 'GAME OF SKILLS',
         };
 
 

@@ -84,8 +84,7 @@ const initWebRouter = (app) => {
     // BET wingo
     router.get('/win', middlewareController, winGoController.winGoPage);
     router.get('/win/3', middlewareController, winGoController.winGoPage3);
-    router.get('/win/5', middlewareController, winGoController.winGoPage5);
-    router.get('/win/10', middlewareController, winGoController.winGoPage10);
+   
 
     // BET K5D
     router.get('/5d', middlewareController, k5Controller.K5DPage);

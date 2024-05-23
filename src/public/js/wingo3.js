@@ -1526,7 +1526,7 @@ function timerJoin(params = '', addHours = 0) {
         var now = new Date().getTime();
         var distance = countDownDate - now;
         var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-        var minute = Math.ceil(minutes % 3);
+        var minute = Math.ceil(minutes % 2);
         var seconds1 = Math.floor((distance % (1000 * 60)) / 10000);
         var seconds2 = Math.floor(((distance % (1000 * 60)) / 1000) % 10);
         // $(".number .item:eq(0)").text(seconds1);
@@ -1539,7 +1539,7 @@ function timerJoin(params = '', addHours = 0) {
         var now = new Date().getTime();
         var distance = countDownDate - now;
         var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-        var minute = Math.ceil(minutes % 3);
+        var minute = Math.ceil(minutes % 2);
         var seconds1 = Math.floor((distance % (1000 * 60)) / 10000);
         var seconds2 = Math.floor(((distance % (1000 * 60)) / 1000) % 10);
         if (minute == 0 && seconds1 == 0 && seconds2 <= 5) {
@@ -1557,7 +1557,7 @@ function timerJoin(params = '', addHours = 0) {
         var now = new Date().getTime();
         var distance = countDownDate - now;
         var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-        var minute = Math.ceil(minutes % 3);
+        var minute = Math.ceil(minutes % 2);
         var seconds1 = Math.floor((distance % (1000 * 60)) / 10000);
         var seconds2 = Math.floor(((distance % (1000 * 60)) / 1000) % 10);
         if (minute == 0 && seconds1 == 0 && seconds2 <= 5) {

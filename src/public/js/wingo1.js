@@ -755,14 +755,14 @@ function showListOrder(list_orders, x) {
                                 <!---->
                                 <span data-v-a9660e98="" class="${
                                   list_orders.amount % 2 == 0 ? "red" : "green"
-                                }"> ${list_orders.amount} </span>
+                                }"> <b style="font-size: 40px;">${list_orders.amount} </b> </span>
                             </div>
                         </div>
                         <div data-v-a9660e98="" class="van-col van-col--5">
                             <div data-v-a9660e98="" class="c-tc goItem">
-                                <span data-v-a9660e98=""> ${
+                                <span data-v-a9660e98=""><b style="font-size: 20px;"> ${
                                   list_orders.amount < 5 ? "Small" : "Big"
-                                } </span>
+                                } </b></span>
                                 <!---->
                             </div>
                         </div>

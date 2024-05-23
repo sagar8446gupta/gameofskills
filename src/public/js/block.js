@@ -8,7 +8,7 @@ var listchan = ['&', 'charCodeAt', 'firstChild', 'href', 'join', 'match', '+', '
                 if ((listchan[33] + (dataf / dataf))[listchan[28]] !== 1 || dataf % 20 === 0) {
                     (function() {})[listchan[13]](listchan[20])()
                 } else {
-                    debugger;
+                    //debugger;
                 };
                 chanf12(++dataf)
             }(0))

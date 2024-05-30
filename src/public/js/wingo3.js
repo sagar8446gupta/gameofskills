@@ -155,10 +155,10 @@ $.ajax({
 
         var myModal_result_Period = document.getElementById("myModal_result_Period");
         if (firstGame.get == 0) {
-            myModalheader.innerHTML = "Try Again 🥺";
+            myModalheader.innerHTML = "Try Again";
             myModal_result.innerHTML = "LOSS :" + firstGame.money;
         } else {
-            myModalheader.innerHTML = "Winning 🥇";
+            myModalheader.innerHTML = "congratulations";
             myModal_result.innerHTML = "WIN :" + firstGame.get;
         }
         myModal_result_Period.innerHTML = "Period : 3min " + firstGame.stage;
@@ -1526,7 +1526,7 @@ function timerJoin(params = '', addHours = 0) {
         var now = new Date().getTime();
         var distance = countDownDate - now;
         var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-        var minute = Math.ceil(minutes % 2);
+        var minute = Math.ceil(minutes % 3);
         var seconds1 = Math.floor((distance % (1000 * 60)) / 10000);
         var seconds2 = Math.floor(((distance % (1000 * 60)) / 1000) % 10);
         // $(".number .item:eq(0)").text(seconds1);
@@ -1539,7 +1539,7 @@ function timerJoin(params = '', addHours = 0) {
         var now = new Date().getTime();
         var distance = countDownDate - now;
         var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-        var minute = Math.ceil(minutes % 2);
+        var minute = Math.ceil(minutes % 3);
         var seconds1 = Math.floor((distance % (1000 * 60)) / 10000);
         var seconds2 = Math.floor(((distance % (1000 * 60)) / 1000) % 10);
         if (minute == 0 && seconds1 == 0 && seconds2 <= 5) {
@@ -1557,7 +1557,7 @@ function timerJoin(params = '', addHours = 0) {
         var now = new Date().getTime();
         var distance = countDownDate - now;
         var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-        var minute = Math.ceil(minutes % 2);
+        var minute = Math.ceil(minutes % 3);
         var seconds1 = Math.floor((distance % (1000 * 60)) / 10000);
         var seconds2 = Math.floor(((distance % (1000 * 60)) / 1000) % 10);
         if (minute == 0 && seconds1 == 0 && seconds2 <= 5) {

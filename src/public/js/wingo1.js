@@ -149,10 +149,10 @@ $.ajax({
         var lottery_result = document.getElementById("lottery_result");
         var myModal_result_Period = document.getElementById("myModal_result_Period");
         if (firstGame.get == 0) {
-            myModalheader.innerHTML = "Try Again 🥺";
+            myModalheader.innerHTML = "Try Again";
             myModal_result.innerHTML = "LOSS :" + firstGame.money;
         } else {
-            myModalheader.innerHTML = "Winning 🥇";
+            myModalheader.innerHTML = "congratulations";
             myModal_result.innerHTML = "WIN :" + firstGame.get;
         }
         myModal_result_Period.innerHTML = "Period : 1min " + firstGame.stage;
@@ -755,14 +755,14 @@ function showListOrder(list_orders, x) {
                                 <!---->
                                 <span data-v-a9660e98="" class="${
                                   list_orders.amount % 2 == 0 ? "red" : "green"
-                                }"> <b style="font-size: 40px;">${list_orders.amount} </b> </span>
+                                }"> ${list_orders.amount} </span>
                             </div>
                         </div>
                         <div data-v-a9660e98="" class="van-col van-col--5">
                             <div data-v-a9660e98="" class="c-tc goItem">
-                                <span data-v-a9660e98=""><b style="font-size: 20px;"> ${
+                                <span data-v-a9660e98=""> ${
                                   list_orders.amount < 5 ? "Small" : "Big"
-                                } </b></span>
+                                } </span>
                                 <!---->
                             </div>
                         </div>

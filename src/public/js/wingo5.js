@@ -154,10 +154,10 @@ $.ajax({
         var lottery_result = document.getElementById("lottery_result");
 var myModal_result_Period = document.getElementById("myModal_result_Period");
         if (firstGame.get == 0) {
-            myModalheader.innerHTML = "Try Again 🥺";
+            myModalheader.innerHTML = "Try Again";
             myModal_result.innerHTML = "LOSS :" + firstGame.money;
         } else {
-            myModalheader.innerHTML = "Winning 🥇";
+            myModalheader.innerHTML = "congratulations";
             myModal_result.innerHTML = "WIN :" + firstGame.get;
         }
         myModal_result_Period.innerHTML = "Period : 5 min " + firstGame.stage;
